@@ -1,0 +1,21 @@
+$primiary-color: #e7ff89;
+$base-color: #fff;
+$accent-color: #35c6d9;
+
+@mixin height-auto {
+    min-height: inherit !important;
+    height: auto !important;
+}
+
+@mixin base {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+    background: $base-color;
+    -webkit-font-smoothing: antialiased;
+}
+
+@mixin font-use($fs, $fw, $fh) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $fh;
+}
